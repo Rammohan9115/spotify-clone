@@ -1,4 +1,13 @@
 import Stripe from "stripe";
+import { StringLiteral } from "typescript";
+export interface Song{
+    id:string;
+    user_id:string;
+    author:String;
+    title:string;
+    song_path:string;
+    img_path:string;
+};
 
 export interface UserDetails {
     id:string;
